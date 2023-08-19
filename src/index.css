@@ -1,0 +1,430 @@
+*{
+  font-family: monospace;
+}
+
+#root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  font-weight: 500;
+  color: #457b9d;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #e63946;
+}
+
+.img {
+  width: 1300px;
+  margin-top: 30px;
+
+}
+.bio-container {
+  background-color: #a8dadc;
+  border-radius: 8px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add smooth hover effect */
+
+  /* Optional: Add a gradient for subtle dimension */
+  background-image: linear-gradient(45deg, #a8dadc, #e0f5f5);
+}
+
+.bio-container:hover {
+  transform: translateY(-5px); /* Lift the element slightly on hover */
+}
+
+
+body {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  width: 1300px;
+  background-color: #f1faee;
+
+  /* min-height: 100vh; */
+}
+
+.divider {
+  margin: 0px auto; /* Adjust margin as needed */
+  width: 1300px; /* Adjust width as needed */
+  border: none;
+  border-top: 1px solid #1D3557; /* Define the line color */
+}
+.divider-footer {
+  margin: 0px auto; /* Adjust margin as needed */
+  width: 1300px; /* Adjust width as needed */
+  border: none;
+  border-top: 1px solid #1D3557; /* Define the line color */
+  margin-top: 40px;
+}
+
+
+h1, h2, h3 {
+  font-family: "Playfair Display";
+  letter-spacing: 3px;
+  color: #1d3557;
+}
+.link {
+ color:#1D3557;
+  width: 50px;
+  height: 50px;
+}
+.link:hover {
+ color:#E63946;
+  width: 50px;
+  height: 50px;
+}
+
+
+.name {
+  font-family: "Playfair Display";
+  letter-spacing: 3px;
+  color: #1d3557;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  color:#1D3557;
+  font-weight: 500;
+}
+
+
+
+.hi-role {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  position: relative;
+  left: -10px;
+
+
+}
+
+.intro {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.ixd {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech {
+  font-size: 24px;
+  font-weight: 600;
+}
+.title-nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 1300px;
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-home {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.me {
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+
+.piece {
+  width: 30rem;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+
+  /* Optional: Add a shadow for a lifted appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.piece:hover {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.piece-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.portfolio-piece {
+  background-color: #a8dadc;
+  border-radius: 8px;
+  width: 60rem;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Add transitions for smooth hover effect */
+
+  /* Optional: Add a gradient for subtle dimension */
+  background-image: linear-gradient(45deg, #a8dadc, #e0f5f5);
+}
+
+.portfolio-piece:hover {
+  transform: translateY(-3px); /* Lift the element slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly increase shadow on hover */
+  background-color: #b2e1e1; /* Change the background color slightly on hover */
+}
+
+
+
+
+.photo-role {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 100px;
+}
+
+.see-more {
+  width: 50px;
+  height: 50px;
+  background-color:#457b9d;
+}
+.see-more:hover {
+ 
+  background-color: #E63946;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.tech-img {
+  width: 50px;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  filter: #457b9d(100%) opacity(70%);
+}
+
+
+
+
+/*  ********************************  ANIMATION */
+
+
+.dot1 {
+  width: 38.61px;
+  height: 45.55px;
+  border-radius: 50%;
+  background-color: #457b9d;
+  position: absolute;
+  top: 90px;
+  left: 138px;
+  z-index: 3;
+}
+.dot2 {
+  height: 64.35px;
+  width: 67.84px;
+  border-radius: 50%;
+  background-color: #1D3557;
+  position: absolute;
+  top: 100px;
+  left: 122px;
+  z-index: 1;
+}
+.dot3 {
+  height: 99px;
+  width: 94px;
+  border-radius: 50%;
+  background-color: #E63946;
+  position: relative;
+
+}
+
+.dot1, .dot2, .dot3 {
+  animation: dot1 3s linear infinite;
+}
+
+@keyframes dot1 {
+0% { transform: rotateX(0deg) rotateY(0deg);}
+50% { transform: rotateX(0deg) rotateY(100deg);}
+100% { transform: rotateX(180deg) rotateY(180deg);}
+}
+
+
+/* FANCY INTRO */
+/* NAME ANIMATION */
+.fancy-name, .letter{
+  display: flex;
+  font-size: 40px;
+  letter-spacing: 5px;
+  animation: flash 4s linear;
+  font-weight: bold;
+  color: #e63946;
+  font-family: "Playfair Display";
+}
+
+@keyframes flash {
+  0% {color: #457b9d;
+letter-spacing: 4px;
+opacity: 0;
+}
+
+10% {
+  opacity: 1;
+}
+  50% {color: #457b9d;
+      opacity: 1;}
+  100% {color: #457b9d;
+ 
+  opacity: 0;
+letter-spacing: 4px;}
+}
+
+.fancy-name li:nth-child(10) {
+  animation-delay: 0.1s;
+
+}
+
+.fancy-name .letter:nth-child(1) {
+  animation-delay: 0.1s;
+ 
+}
+.fancy-name li:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.fancy-name li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.fancy-name li:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.fancy-name li:nth-child(5) {
+  animation-delay: 0.4s;
+ 
+}
+.fancy-name li:nth-child(6) {
+  animation-delay: 0.5s;
+  
+}
+.fancy-name li:nth-child(7) {
+  animation-delay: 0.6s;
+  
+}
+.fancy-name li:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.fancy-name li:nth-child(9) {
+  animation-delay: 0.8s;
+
+}
+.fancy-name li:nth-child(10) {
+  animation-delay: 0.9s;
+  
+}
+.fancy-name li:nth-child(11) {
+  animation-delay: 1s;
+
+}
+.fancy-name li:nth-child(12) {
+  animation-delay: 1.1s;
+}
+.fancy-name li:nth-child(13) {
+  animation-delay: 1.2s;
+}
+.fancy-name li:nth-child(14) {
+  animation-delay: 1.3s;
+}
+.fancy-name li:nth-child(15) {
+  animation-delay: 1.4s;
+}
+.fancy-name li:nth-child(16) {
+  animation-delay: 1.5s;
+}
+.fancy-name li:nth-child(17) {
+  animation-delay: 1.6s;
+}
+.fancy-name li:nth-child(18) {
+  animation-delay: 1.7s;
+}
+.fancy-name li:nth-child(19) {
+  animation-delay: 1.8s;
+}
+
+
+
+/* SCROLL BUTTON */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+}
