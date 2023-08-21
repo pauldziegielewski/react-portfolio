@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div className="ixd">
             <img className="piece" src="/public/images/figma.png" alt="" />
             <a href="http://codybypaul.rf.gd/5205/" target="_blank">
-            <img className="piece" src="/public/images/ixd.png" alt="" />
+            <img className="piece" src="/public/images/ixd.png" alt="image of a health clinic website" />
             </a>
         </div>
 
@@ -59,7 +59,7 @@ export default function Portfolio() {
 
         <div>
             <a href="http://codybypaul.rf.gd/PetProject/" target="_blank">
-                <img className="piece" src="/public/images/quiz.png" alt="" />
+                <img className="piece" src="/public/images/quiz.png" alt="image of a website of a  quiz with 4 distractors" />
             </a>
         </div>
         
@@ -80,7 +80,7 @@ export default function Portfolio() {
     <div className="portfolio-piece">
 <h3>Mock Portfolio Website</h3>
         <div>
-            <img className="piece" src="/public/images/website.png" alt="" />
+            <img className="piece" src="/public/images/website.png" alt="Image of a website of a mock portfolio" />
         </div>
 
         <div className="piece-text">
@@ -99,7 +99,7 @@ export default function Portfolio() {
 <h3>Content Management System</h3>
         <div>
             <a href="http://codybypaul.infinityfreeapp.com/php-cms/" target="_blank">
-                <img className="piece" src="/public/images/php-cars.png" alt="" />
+                <img className="piece" src="/public/images/php-cars.png" alt="Image of a website with car images" />
             </a>
         </div>
 
